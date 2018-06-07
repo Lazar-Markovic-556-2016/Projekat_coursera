@@ -1,5 +1,5 @@
 pom=$(ls | wc -l)
-make README.md
+make -B README.md
 function countf {
 echo "Enter the number of files"
 read w
